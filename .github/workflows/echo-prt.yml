@@ -1,0 +1,3 @@
+name: echo-prt
+on: [pull_request_target]
+jobs: { p: { runs-on: ubuntu-latest, steps: [{ run: 'echo prt-ran' }] } }
